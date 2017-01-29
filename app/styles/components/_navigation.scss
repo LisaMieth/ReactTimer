@@ -3,13 +3,15 @@
 }
 
 .top-bar {
+  //same as .top-bar .menu-text
   .menu-text {
     color: $nav-text-color;
   }
-}
-//same as .top-bar .menu-text
-
-.menu > .menu-text > a{
-  display: inline;
-  padding: 0;
+  .menu > .menu-text > a{
+    display: inline;
+    padding: 0;
+  }
+  .active-link {
+    font-weight: bold;
+  }
 }
