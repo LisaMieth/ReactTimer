@@ -1,0 +1,12 @@
+.controls {
+  display: flex;
+  justify-content: center;
+
+  .button {
+    padding: .75rem 3rem;
+  }
+  //selects only the first button in our controls container
+  .button:first-child {
+    margin-right: 1.5rem;
+  }
+}
